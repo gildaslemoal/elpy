@@ -49,3 +49,6 @@
 # Composer PHAR
 /composer.phar
 >>>>>>> e598db8673a39124dace8c9831cb85629e54ce5e
+
+#Netbeans
+/elpy_Netbeans/
