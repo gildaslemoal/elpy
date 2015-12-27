@@ -1,0 +1,30 @@
+ticketstatus:
+    path:     /
+    defaults: { _controller: "ElpyGeneralBundle:TicketStatus:index" }
+
+ticketstatus_show:
+    path:     /{id}/show
+    defaults: { _controller: "ElpyGeneralBundle:TicketStatus:show" }
+
+ticketstatus_new:
+    path:     /new
+    defaults: { _controller: "ElpyGeneralBundle:TicketStatus:new" }
+
+ticketstatus_create:
+    path:     /create
+    defaults: { _controller: "ElpyGeneralBundle:TicketStatus:create" }
+    methods:  POST
+
+ticketstatus_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "ElpyGeneralBundle:TicketStatus:edit" }
+
+ticketstatus_update:
+    path:     /{id}/update
+    defaults: { _controller: "ElpyGeneralBundle:TicketStatus:update" }
+    methods:  [POST, PUT]
+
+ticketstatus_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "ElpyGeneralBundle:TicketStatus:delete" }
+    methods:  [POST, DELETE]

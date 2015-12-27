@@ -1,0 +1,30 @@
+module:
+    path:     /
+    defaults: { _controller: "ElpyGeneralBundle:Module:index" }
+
+module_show:
+    path:     /{id}/show
+    defaults: { _controller: "ElpyGeneralBundle:Module:show" }
+
+module_new:
+    path:     /new
+    defaults: { _controller: "ElpyGeneralBundle:Module:new" }
+
+module_create:
+    path:     /create
+    defaults: { _controller: "ElpyGeneralBundle:Module:create" }
+    methods:  POST
+
+module_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "ElpyGeneralBundle:Module:edit" }
+
+module_update:
+    path:     /{id}/update
+    defaults: { _controller: "ElpyGeneralBundle:Module:update" }
+    methods:  [POST, PUT]
+
+module_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "ElpyGeneralBundle:Module:delete" }
+    methods:  [POST, DELETE]

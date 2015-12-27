@@ -1,0 +1,30 @@
+productfamily:
+    path:     /
+    defaults: { _controller: "ElpyGeneralBundle:ProductFamily:index" }
+
+productfamily_show:
+    path:     /{id}/show
+    defaults: { _controller: "ElpyGeneralBundle:ProductFamily:show" }
+
+productfamily_new:
+    path:     /new
+    defaults: { _controller: "ElpyGeneralBundle:ProductFamily:new" }
+
+productfamily_create:
+    path:     /create
+    defaults: { _controller: "ElpyGeneralBundle:ProductFamily:create" }
+    methods:  POST
+
+productfamily_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "ElpyGeneralBundle:ProductFamily:edit" }
+
+productfamily_update:
+    path:     /{id}/update
+    defaults: { _controller: "ElpyGeneralBundle:ProductFamily:update" }
+    methods:  [POST, PUT]
+
+productfamily_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "ElpyGeneralBundle:ProductFamily:delete" }
+    methods:  [POST, DELETE]

@@ -1,0 +1,30 @@
+company:
+    path:     /
+    defaults: { _controller: "ElpyGeneralBundle:Company:index" }
+
+company_show:
+    path:     /{id}/show
+    defaults: { _controller: "ElpyGeneralBundle:Company:show" }
+
+company_new:
+    path:     /new
+    defaults: { _controller: "ElpyGeneralBundle:Company:new" }
+
+company_create:
+    path:     /create
+    defaults: { _controller: "ElpyGeneralBundle:Company:create" }
+    methods:  POST
+
+company_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "ElpyGeneralBundle:Company:edit" }
+
+company_update:
+    path:     /{id}/update
+    defaults: { _controller: "ElpyGeneralBundle:Company:update" }
+    methods:  [POST, PUT]
+
+company_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "ElpyGeneralBundle:Company:delete" }
+    methods:  [POST, DELETE]

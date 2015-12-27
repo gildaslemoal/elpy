@@ -1,0 +1,30 @@
+tickettype:
+    path:     /
+    defaults: { _controller: "ElpyGeneralBundle:TicketType:index" }
+
+tickettype_show:
+    path:     /{id}/show
+    defaults: { _controller: "ElpyGeneralBundle:TicketType:show" }
+
+tickettype_new:
+    path:     /new
+    defaults: { _controller: "ElpyGeneralBundle:TicketType:new" }
+
+tickettype_create:
+    path:     /create
+    defaults: { _controller: "ElpyGeneralBundle:TicketType:create" }
+    methods:  POST
+
+tickettype_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "ElpyGeneralBundle:TicketType:edit" }
+
+tickettype_update:
+    path:     /{id}/update
+    defaults: { _controller: "ElpyGeneralBundle:TicketType:update" }
+    methods:  [POST, PUT]
+
+tickettype_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "ElpyGeneralBundle:TicketType:delete" }
+    methods:  [POST, DELETE]

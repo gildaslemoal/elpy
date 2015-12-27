@@ -1,0 +1,11 @@
+Elpy\Bundle\GeneralBundle\Entity\KnowledgeType:
+    type: entity
+    table: null
+    repositoryClass: Elpy\Bundle\GeneralBundle\Entity\KnowledgeTypeRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }

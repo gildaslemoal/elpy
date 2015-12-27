@@ -1,0 +1,30 @@
+producttype:
+    path:     /
+    defaults: { _controller: "ElpyGeneralBundle:ProductType:index" }
+
+producttype_show:
+    path:     /{id}/show
+    defaults: { _controller: "ElpyGeneralBundle:ProductType:show" }
+
+producttype_new:
+    path:     /new
+    defaults: { _controller: "ElpyGeneralBundle:ProductType:new" }
+
+producttype_create:
+    path:     /create
+    defaults: { _controller: "ElpyGeneralBundle:ProductType:create" }
+    methods:  POST
+
+producttype_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "ElpyGeneralBundle:ProductType:edit" }
+
+producttype_update:
+    path:     /{id}/update
+    defaults: { _controller: "ElpyGeneralBundle:ProductType:update" }
+    methods:  [POST, PUT]
+
+producttype_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "ElpyGeneralBundle:ProductType:delete" }
+    methods:  [POST, DELETE]

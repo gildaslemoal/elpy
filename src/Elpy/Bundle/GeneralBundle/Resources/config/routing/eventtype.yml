@@ -1,0 +1,30 @@
+eventtype:
+    path:     /
+    defaults: { _controller: "ElpyGeneralBundle:EventType:index" }
+
+eventtype_show:
+    path:     /{id}/show
+    defaults: { _controller: "ElpyGeneralBundle:EventType:show" }
+
+eventtype_new:
+    path:     /new
+    defaults: { _controller: "ElpyGeneralBundle:EventType:new" }
+
+eventtype_create:
+    path:     /create
+    defaults: { _controller: "ElpyGeneralBundle:EventType:create" }
+    methods:  POST
+
+eventtype_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "ElpyGeneralBundle:EventType:edit" }
+
+eventtype_update:
+    path:     /{id}/update
+    defaults: { _controller: "ElpyGeneralBundle:EventType:update" }
+    methods:  [POST, PUT]
+
+eventtype_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "ElpyGeneralBundle:EventType:delete" }
+    methods:  [POST, DELETE]

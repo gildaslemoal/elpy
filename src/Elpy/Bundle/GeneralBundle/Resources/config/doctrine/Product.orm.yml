@@ -1,0 +1,15 @@
+Elpy\Bundle\GeneralBundle\Entity\Product:
+    type: entity
+    table: null
+    repositoryClass: Elpy\Bundle\GeneralBundle\Entity\ProductRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

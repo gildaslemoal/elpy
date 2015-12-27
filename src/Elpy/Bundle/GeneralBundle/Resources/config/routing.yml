@@ -1,0 +1,47 @@
+elpy_general_module:
+    resource: "@ElpyGeneralBundle/Resources/config/routing/module.yml"
+    prefix:   /module
+
+elpy_general_knowledgetype:
+    resource: "@ElpyGeneralBundle/Resources/config/routing/knowledgetype.yml"
+    prefix:   /knowledgetype
+
+elpy_general_ticketstatus:
+    resource: "@ElpyGeneralBundle/Resources/config/routing/ticketstatus.yml"
+    prefix:   /ticketstatus
+
+elpy_general_producttype:
+    resource: "@ElpyGeneralBundle/Resources/config/routing/producttype.yml"
+    prefix:   /producttype
+
+elpy_general_eventtype:
+    resource: "@ElpyGeneralBundle/Resources/config/routing/eventtype.yml"
+    prefix:   /eventtype
+
+elpy_general_product:
+    resource: "@ElpyGeneralBundle/Resources/config/routing/product.yml"
+    prefix:   /product
+
+elpy_general_job:
+    resource: "@ElpyGeneralBundle/Resources/config/routing/job.yml"
+    prefix:   /job
+
+elpy_general_role:
+    resource: "@ElpyGeneralBundle/Resources/config/routing/role.yml"
+    prefix:   /role
+
+elpy_general_company:
+    resource: "@ElpyGeneralBundle/Resources/config/routing/company.yml"
+    prefix:   /company
+
+elpy_general_tickettype:
+    resource: "@ElpyGeneralBundle/Resources/config/routing/tickettype.yml"
+    prefix:   /tickettype
+
+elpy_general_productfamily:
+    resource: "@ElpyGeneralBundle/Resources/config/routing/productfamily.yml"
+    prefix:   /productfamily
+
+elpy_general_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ElpyGeneralBundle:Default:index }
