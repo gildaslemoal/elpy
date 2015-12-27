@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /app/bootstrap.php.cache
 /app/cache/*
 !app/cache/.gitkeep
@@ -52,3 +53,6 @@
 
 #Netbeans
 /elpy_Netbeans/
+=======
+
+>>>>>>> cc6c42bc5a9773c0ef9577e9a92f7fd648d34749
