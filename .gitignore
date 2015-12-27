@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 /app/bootstrap.php.cache
 /app/cache/*
 !app/cache/.gitkeep
@@ -49,10 +47,8 @@
 
 # Composer PHAR
 /composer.phar
->>>>>>> e598db8673a39124dace8c9831cb85629e54ce5e
 
 #Netbeans
 /elpy_Netbeans/
 =======
 
->>>>>>> cc6c42bc5a9773c0ef9577e9a92f7fd648d34749
